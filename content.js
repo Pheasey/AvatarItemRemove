@@ -23,7 +23,7 @@ for (var y = 0; y < amount; y++) {
 
     var source = image.src;
     var size = image.width;
-    var player = source.replace(/https:\/\/avatar.oc.tc\//g, "").replace(/\/\/[0-9]{1,3}@[0-9]x.png/g, "");
+    var player = source.replace(/https:\/\/avatar.oc.tc\//g, "").replace(/\/[0-9]{1,3}@[0-9]x.png/g, "");
 
     image.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjAwIDE0MDVxMCAxMjAtNzMgMTg5LjV0LTE5NCA2OS41aC04NzRxLTEyMSAwLTE5NC02OS41dC03My0xODkuNXEwLTUzIDMuNS0xMDMuNXQxNC0xMDkgMjYuNS0xMDguNSA0My05Ny41IDYyLTgxIDg1LjUtNTMuNSAxMTEuNS0yMHE5IDAgNDIgMjEuNXQ3NC41IDQ4IDEwOCA0OCAxMzMuNSAyMS41IDEzMy41LTIxLjUgMTA4LTQ4IDc0LjUtNDggNDItMjEuNXE2MSAwIDExMS41IDIwdDg1LjUgNTMuNSA2MiA4MSA0MyA5Ny41IDI2LjUgMTA4LjUgMTQgMTA5IDMuNSAxMDMuNXptLTMyMC04OTNxMCAxNTktMTEyLjUgMjcxLjV0LTI3MS41IDExMi41LTI3MS41LTExMi41LTExMi41LTI3MS41IDExMi41LTI3MS41IDI3MS41LTExMi41IDI3MS41IDExMi41IDExMi41IDI3MS41eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==";
     image.style.background = stringToColour(player);
